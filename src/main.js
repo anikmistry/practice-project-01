@@ -21,9 +21,6 @@ myimg.addEventListener("dblclick",function(){
    love.classList.remove("scale-[0]")
    love.classList.add("scale-[1]")
    setTimeout(function(){
-      //love.classList.remove("scale-[3]")
-      //love.classList.remove("duration-400 ease-in-out")
-      //love.classList.add("scale-[0]")
       love.classList.remove('opacity-80')
       love.classList.add("opacity-0")
       love.classList.remove('scale-[1]')
